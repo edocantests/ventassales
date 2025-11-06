@@ -22,20 +22,32 @@ st.set_page_config(
 
 # CSS personalizado
 st.markdown("""
-<style>
+
 .main-header {
-    font-size: 2.5rem;
-    color: #1f77b4;
-    text-align: center;
-    margin-bottom: 2rem;
+
+font-size: 2.5rem;
+
+color: #1f77b4;
+
+text-align: center;
+
+margin-bottom: 2rem;
+
 }
+
 .metric-card {
-    background-color: #f0f2f6;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin: 0.5rem 0;
+
+background-color: #f0f2f6;
+
+padding: 1rem;
+
+border-radius: 0.5rem;
+
+margin: 0.5rem 0;
+
 }
-</style>
+
+
 """, unsafe_allow_html=True)
 
 @st.cache_data
